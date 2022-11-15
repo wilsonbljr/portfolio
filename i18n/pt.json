@@ -1,0 +1,11 @@
+{
+  "Header": {
+    "home": "Início",
+    "project": "Projetos",
+    "about": "Sobre",
+    "posts": "Posts"
+  },
+  "Home": {
+    "name": "Wilson Bley"
+  }
+}
