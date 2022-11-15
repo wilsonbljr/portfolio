@@ -1,11 +1,18 @@
 {
+  "Landing": {
+    "name": "Wilson Bley",
+    "occupation": "Software Developer (JS/TS/React)"
+  },
+  "Avatar": {
+    "alt": "Foto de perfil"
+  },
   "Header": {
     "home": "Início",
     "project": "Projetos",
     "about": "Sobre",
     "posts": "Posts"
   },
-  "Home": {
-    "name": "Wilson Bley"
+  "RollDown": {
+    "scrolldown": "Scroll down"
   }
 }
