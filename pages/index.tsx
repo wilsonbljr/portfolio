@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Landing from "../components/Landing";
 import Timeline from "../components/Timeline";
 
@@ -28,6 +29,7 @@ export default function Home() {
       </Head>
       <Landing />
       <Timeline />
+      <Footer />
     </main>
   );
 }

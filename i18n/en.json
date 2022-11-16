@@ -39,5 +39,8 @@
   },
   "RollDown": {
     "scrolldown": "Scroll down"
+  },
+  "Footer": {
+    "made_by": "Wilson Bley. All rights reserved."
   }
 }
