@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import Landing from '../components/Landing';
+import Landing from "../components/Landing";
+import Timeline from "../components/Timeline";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <Header />
       <Landing />
+      <Timeline />
     </>
   );
 }

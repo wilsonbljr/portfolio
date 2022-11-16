@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import ChevronDown from "../public/chevron-down.svg";
+import ChevronDown from "../public/icons/chevron-down.svg";
 
 interface RollDownProps {}
 

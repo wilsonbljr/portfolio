@@ -3,8 +3,18 @@
     "name": "Wilson Bley",
     "occupation": "Software Developer (JS/TS/React)"
   },
-  "Avatar": {
-    "alt": "Foto de perfil"
+  "Timeline": {
+    "title": "Experience",
+    "mechanical_engineering": {
+      "time": "January 2014 -- December 2018",
+      "title": "Mechanical Engineering Graduation",
+      "description": "Thesis in simulation of hydraulic turbines. Graduated with honors of highest GPA"
+    },
+    "ads": {
+      "time": "July 2019 -- December 2021",
+      "title": "System Analysis Graduation",
+      "description": "Final project was an API in Spring boot for a review website"
+    }
   },
   "Header": {
     "home": "Início",

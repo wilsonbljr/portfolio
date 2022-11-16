@@ -18,3 +18,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@layer {
+  .show-timeline {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 700ms;
+  }
+
+  .hide-timeline {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100vw);
+  }
+
+  @media (prefers-reduced-motion) {
+    .hide-timeline {
+      transition: none;
+    }
+  }
+}
