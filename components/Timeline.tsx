@@ -1,64 +1,18 @@
 import { useTranslations } from "next-intl";
-import { useEffect, useRef, useState } from "react";
+import useIntersectionObserver from "../lib/hooks/useIntersectionObserver";
 import Link from "../public/icons/link.svg";
 
 interface TimelineProps {}
 
 const Timeline: React.FC<TimelineProps> = ({}) => {
-  const [wiseVisible, setWiseVisible] = useState(false);
-  const wiseRef = useRef(null);
-  const [adsVisible, setAdsVisible] = useState(false);
-  const adsRef = useRef(null);
-  const [traineeVisible, setTraineeVisible] = useState(false);
-  const traineeRef = useRef(null);
-  const [mecEngVisible, setMecEngVisible] = useState(false);
-  const mecEngRef = useRef(null);
-
-  const setIsVisible = (id: string, isVisible: boolean) => {
-    switch (id) {
-      case "wise":
-        setWiseVisible(isVisible);
-        break;
-      case "ads":
-        setAdsVisible(isVisible);
-        break;
-      case "trainee":
-        setTraineeVisible(isVisible);
-        break;
-      case "mecEng":
-        setMecEngVisible(isVisible);
-        break;
-      default:
-        break;
-    }
-  };
-  useEffect(() => {
-    if (
-      !wiseRef.current ||
-      !adsRef.current ||
-      !traineeRef.current ||
-      !mecEngRef.current
-    ) {
-      return;
-    }
-
-    const observer = new IntersectionObserver((entries) => {
-      const entry = entries[0];
-
-      if (entry.isIntersecting) {
-        setIsVisible(entry.target.id, true);
-      } else {
-        setIsVisible(entry.target.id, false);
-      }
-    });
-
-    observer.observe(wiseRef.current);
-    observer.observe(adsRef.current);
-    observer.observe(traineeRef.current);
-    observer.observe(mecEngRef.current);
-  });
-
   const t = useTranslations("Timeline");
+
+  const { ref: wiseRef, isVisible: wiseVisible } = useIntersectionObserver();
+  const { ref: adsRef, isVisible: adsVisible } = useIntersectionObserver();
+  const { ref: traineeRef, isVisible: traineeVisible } =
+    useIntersectionObserver();
+  const { ref: mecEngRef, isVisible: mecEngVisible } =
+    useIntersectionObserver();
 
   return (
     <div className="flex items-center flex-col py-10 px-5">
@@ -68,7 +22,7 @@ const Timeline: React.FC<TimelineProps> = ({}) => {
         </h3>
         <ol className="relative border-l border-amber-400 max-w-md">
           <li className="mb-10 ml-4" id="wise" ref={wiseRef}>
-            <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-2.5 -left-1.5 border border-gray-200"></div>
+            <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-2.5 -left-[6.5px] border border-gray-200"></div>
             <time
               className={`text-xl font-light text-amber-200 ${
                 wiseVisible ? "show-timeline" : "hide-timeline"
@@ -125,7 +79,7 @@ const Timeline: React.FC<TimelineProps> = ({}) => {
             </p>
           </li>
           <li className="mb-10 ml-4" id="ads" ref={adsRef}>
-            <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-2.5 -left-1.5 border border-gray-200"></div>
+            <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-2.5 -left-[6.5px] border border-gray-200"></div>
             <time
               className={`text-xl font-light text-amber-200 ${
                 adsVisible ? "show-timeline" : "hide-timeline"
@@ -149,7 +103,7 @@ const Timeline: React.FC<TimelineProps> = ({}) => {
             </p>
           </li>
           <li className="mb-10 ml-4" id="trainee" ref={traineeRef}>
-            <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-2.5 -left-1.5 border border-gray-200"></div>
+            <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-2.5 -left-[6.5px] border border-gray-200"></div>
             <time
               className={`text-xl font-light text-amber-200 ${
                 traineeVisible ? "show-timeline" : "hide-timeline"
@@ -187,7 +141,7 @@ const Timeline: React.FC<TimelineProps> = ({}) => {
             </a>
           </li>
           <li className="mb-10 ml-4" id="mecEng" ref={mecEngRef}>
-            <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-2.5 -left-1.5 border border-gray-200"></div>
+            <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-2.5 -left-[6.5px] border border-gray-200"></div>
             <time
               className={`text-xl font-light text-amber-200 ${
                 mecEngVisible ? "show-timeline" : "hide-timeline"
@@ -211,7 +165,7 @@ const Timeline: React.FC<TimelineProps> = ({}) => {
             </p>
           </li>
           <li className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-4 -left-1.5 border border-gray-200"></div>
+            <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-4 -left-[6.5px] border border-gray-200"></div>
             <p className="absolute mt-1.5 text-xl font-light text-amber-200">
               {t("beginning")}
             </p>

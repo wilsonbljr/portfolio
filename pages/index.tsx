@@ -5,7 +5,7 @@ import Timeline from "../components/Timeline";
 
 export default function Home() {
   return (
-    <>
+    <main className="max-w-[100vw] overflow-x-hidden">
       <Head>
         <link
           rel="apple-touch-icon"
@@ -30,7 +30,7 @@ export default function Home() {
       <Header />
       <Landing />
       <Timeline />
-    </>
+    </main>
   );
 }
 
