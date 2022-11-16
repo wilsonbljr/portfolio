@@ -23,6 +23,7 @@ const Landing: React.FC<LandingProps> = ({}) => {
             target="_blank"
             rel="noopener noreferrer"
             href={process.env["GITHUB"]}
+            className="hover:cursor-pointer hover:animate-bounce"
           >
             <Github className="w-10 h-10 fill-gray-300" />
           </a>
@@ -30,6 +31,7 @@ const Landing: React.FC<LandingProps> = ({}) => {
             target="_blank"
             rel="noopener noreferrer"
             href={process.env["LINKEDIN"]}
+            className="hover:cursor-pointer hover:animate-bounce"
           >
             <LinkedIn className="w-10 h-10 fill-gray-300" />
           </a>
@@ -37,6 +39,7 @@ const Landing: React.FC<LandingProps> = ({}) => {
             target="_blank"
             rel="noopener noreferrer"
             href={`mailto:${process.env["EMAIL"]}`}
+            className="hover:cursor-pointer hover:animate-bounce"
           >
             <Mail className="w-10 h-10 fill-gray-300" />
           </a>

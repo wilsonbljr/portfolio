@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Header from "../components/Header";
 import Landing from "../components/Landing";
 import Timeline from "../components/Timeline";
 
@@ -27,7 +26,6 @@ export default function Home() {
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <title>Wilson Bley</title>
       </Head>
-      <Header />
       <Landing />
       <Timeline />
     </main>
