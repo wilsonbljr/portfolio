@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Landing from "../components/Landing";
+import About from "../components/About";
 import Timeline from "../components/Timeline";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
         <title>Wilson Bley</title>
       </Head>
       <Landing />
+      <About />
       <Timeline />
       <Footer />
     </main>

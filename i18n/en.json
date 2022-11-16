@@ -42,5 +42,10 @@
   },
   "Footer": {
     "made_by": "Wilson Bley. All rights reserved."
+  },
+  "About": {
+    "title": "About me",
+    "about": "A junior web developer with 11 months of experience working in a team for a marketplace webapp. Always trying to learn new things (which makes the JS ecosystem perfect for me, a new framework everyday haha) because that is what makes me motivated to keep programming.",
+    "about_2": "My current short/medium term goal is becoming advanced in React and Next.js while always improving my code skills to write maintainable and scalable apps, while the long term is becoming a fullstack developer."
   }
 }
