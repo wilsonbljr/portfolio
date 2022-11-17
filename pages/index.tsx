@@ -1,10 +1,12 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
+import { useRef } from "react";
 import Landing from "../components/Landing";
 import About from "../components/About";
 import Timeline from "../components/Timeline";
 
 export default function Home() {
+  const aboutRef = useRef<HTMLDivElement>(null);
+
   return (
     <main className="max-w-[100vw] overflow-x-hidden">
       <Head>
@@ -28,10 +30,9 @@ export default function Home() {
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <title>Wilson Bley</title>
       </Head>
-      <Landing />
-      <About />
+      <Landing aboutRef={aboutRef} />
+      <About ref={aboutRef} />
       <Timeline />
-      <Footer />
     </main>
   );
 }

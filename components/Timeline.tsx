@@ -134,7 +134,7 @@ const Timeline: React.FC<TimelineProps> = ({}) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/wilsonbljr/team-makr"
-                className={`py-2 px-5 rounded-3xl border border-amber-300 flex 
+                className={`py-2 px-5 rounded-md border border-amber-300 flex 
               max-w-fit items-center gap-3 justify-center tracking-wide mt-5 ml-3 hover:bg-slate-900`}
               >
                 <Link className="w-5 h-5 fill-gray-200" />
