@@ -125,20 +125,24 @@ const Timeline: React.FC<TimelineProps> = ({}) => {
             >
               {t("trainee.description")}
             </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/wilsonbljr/team-makr"
-              className={`py-2 px-5 rounded-3xl border border-amber-300 flex 
-              max-w-fit items-center gap-3 justify-center tracking-wide mt-5 ml-3 hover:bg-slate-900 delay-500 ${
+            <div
+              className={`delay-500 ${
                 traineeVisible ? "show-timeline" : "hide-timeline"
               }`}
             >
-              <Link className="w-5 h-5 fill-gray-200" />
-              <span className="-mt-0.5 font-bold text-amber-300 leading-5 inline-block">
-                {t("trainee.button")}
-              </span>
-            </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/wilsonbljr/team-makr"
+                className={`py-2 px-5 rounded-3xl border border-amber-300 flex 
+              max-w-fit items-center gap-3 justify-center tracking-wide mt-5 ml-3 hover:bg-slate-900`}
+              >
+                <Link className="w-5 h-5 fill-gray-200" />
+                <span className="-mt-0.5 font-bold text-amber-300 leading-5 inline-block">
+                  {t("trainee.button")}
+                </span>
+              </a>
+            </div>
           </li>
           <li className="mb-10 ml-4" id="mecEng" ref={mecEngRef}>
             <div className="absolute w-3 h-3 bg-amber-400 rounded-full mt-2.5 -left-[6.5px] border border-gray-200"></div>
