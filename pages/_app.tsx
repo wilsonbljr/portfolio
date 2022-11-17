@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <NextIntlProvider messages={pageProps.messages}>
       <main
-        className={`${roboto.variable} font-sans bg-gray-50 text-gray-900 min-h-screen dark:bg-slate-800 dark:text-gray-200`}
+        className={`${roboto.variable} font-sans min-h-screen bg-slate-800 text-gray-200`}
       >
         <Component {...pageProps} />
       </main>

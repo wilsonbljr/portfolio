@@ -5,24 +5,47 @@
   },
   "Timeline": {
     "title": "Experience",
+    "beginning": "Beginning",
     "mechanical_engineering": {
-      "time": "January 2014 -- December 2018",
+      "time": "December 2018  (5 years)",
       "title": "Mechanical Engineering Graduation",
-      "description": "Thesis in simulation of hydraulic turbines. Graduated with honors of highest GPA"
+      "description": "Thesis in simulation of hydraulic turbines. Graduated with honors for achieving the highest GPA among the graduating"
     },
     "ads": {
-      "time": "July 2019 -- December 2021",
+      "time": "December 2021 (2.5 years)",
       "title": "System Analysis Graduation",
       "description": "Final project was an API in Spring boot for a review website"
+    },
+    "trainee": {
+      "time": "November 2021 (2 months)",
+      "title": "Wise Systems Trainee",
+      "description": "A capacitation program where we had JavaScript courses and in 2 months we needed to create a fullstack app (front-end, back-end and mobile) for team management. After getting the first place, I was hired by the same company.",
+      "button": "Project Team Makr"
+    },
+    "wise": {
+      "time": "Current (11 months)",
+      "title": "Wise Systems",
+      "description": "In cronological order:",
+      "description_1": "- 8 months giving maintenance and adding new features to a marketplace website built with React and NestJS <important>(fullstack)</important>",
+      "description_2": "- 2 months creating a logistics website in Angular <important>(front-end)</important>",
+      "description_3": "- Currently creating a marketplace website built with Next.js <important>(front-end)</important>"
     }
   },
   "Header": {
-    "home": "Início",
-    "project": "Projetos",
-    "about": "Sobre",
+    "home": "Home",
+    "project": "Projects",
+    "about": "About",
     "posts": "Posts"
   },
   "RollDown": {
     "scrolldown": "Scroll down"
+  },
+  "Footer": {
+    "made_by": "Wilson Bley. All rights reserved."
+  },
+  "About": {
+    "title": "About me",
+    "about": "A junior web developer with 11 months of experience working in a team for a marketplace webapp. Always trying to learn new things (which makes the JS ecosystem perfect for me, a new framework everyday haha) because that is what makes me motivated to keep programming.",
+    "about_2": "My current short/medium term goal is becoming advanced in React and Next.js while always improving my code skills to write maintainable and scalable apps, while the long term is becoming a fullstack developer."
   }
 }
