@@ -12,7 +12,7 @@
     },
     "portfolio": {
       "title": "Portfolio",
-      "description": "This is my website, the one you are currently looking at.",
+      "description": "This is my website, the one you are currently looking at. Hosted at Vercel",
       "date": "11/2022"
     }
   },

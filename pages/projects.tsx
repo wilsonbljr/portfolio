@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useTranslations } from "next-intl";
-import ProjectCard from "../../components/ProjectCard";
-import { IconEnum } from "../../lib/utils/iconUtils";
+import ProjectCard from "../components/ProjectCard";
+import { IconEnum } from "../lib/utils/iconUtils";
 
 export default function Home() {
   const t = useTranslations("Projects");
@@ -71,7 +71,7 @@ export default function Home() {
 }
 
 export async function getStaticProps(context: any) {
-  const i18n = await import(`../../i18n/${context.locale}.json`);
+  const i18n = await import(`../i18n/${context.locale}.json`);
 
   return {
     props: {
