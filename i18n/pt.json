@@ -1,51 +1,61 @@
 {
   "Landing": {
     "name": "Wilson Bley",
-    "occupation": "Software Developer (JS/TS/React)"
+    "occupation": "Desenvolvedor Web (JS/TS/React)"
   },
-  "Timeline": {
-    "title": "Experience",
-    "beginning": "Beginning",
-    "mechanical_engineering": {
-      "time": "December 2018  (5 years)",
-      "title": "Mechanical Engineering Graduation",
-      "description": "Thesis in simulation of hydraulic turbines. Graduated with honors for achieving the highest GPA among the graduating"
+  "Projects": {
+    "title": "Projetos",
+    "team_makr": {
+      "title": "Team Makr",
+      "description": "Um app fullstack para gerenciar times dentro da sua empresa se baseando nas habilidades de seus colaboradores",
+      "date": "11/2021"
     },
-    "ads": {
-      "time": "December 2021 (2.5 years)",
-      "title": "System Analysis Graduation",
-      "description": "Final project was an API in Spring boot for a review website"
-    },
-    "trainee": {
-      "time": "November 2021 (2 months)",
-      "title": "Wise Systems Trainee",
-      "description": "A capacitation program where we had JavaScript courses and in 2 months we needed to create a fullstack app (front-end, back-end and mobile) for team management. After getting the first place, I was hired by the same company.",
-      "button": "Project Team Makr"
-    },
-    "wise": {
-      "time": "Current (11 months)",
-      "title": "Wise Systems",
-      "description": "In cronological order:",
-      "description_1": "- 8 months giving maintenance and adding new features to a marketplace website built with React and NestJS <important>(fullstack)</important>",
-      "description_2": "- 2 months creating a logistics website in Angular <important>(front-end)</important>",
-      "description_3": "- Currently creating a marketplace website built with Next.js <important>(front-end)</important>"
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "Esse é o meu website, o que você está vendo agora. Hospedado na Vercel",
+      "date": "11/2022"
     }
   },
-  "Header": {
-    "home": "Home",
-    "project": "Projects",
-    "about": "About",
-    "posts": "Posts"
+  "ProjectCard": {
+    "made_with": "Feito com:"
+  },
+  "Timeline": {
+    "title": "Experiência",
+    "beginning": "Começo",
+    "mechanical_engineering": {
+      "time": "Dezembro 2018  (5 anos)",
+      "title": "Graduação em Engenharia Mecânica",
+      "description": "TCC sobre simulação de turbinas hidraulicas. Graduado com honras de possuir o melhor IRA dos graduantes"
+    },
+    "ads": {
+      "time": "Dezembro 2021 (2,5 anos)",
+      "title": "Graduação em Análise e Desenvolvimento de Sistemas",
+      "description": "Projeto final foi uma API em Spring Boot para um website de reviews"
+    },
+    "trainee": {
+      "time": "Novembro 2021 (2 meses)",
+      "title": "Wise Systems Trainee",
+      "description": "Programa de capacitação onde fazíamos cursos de JavaScript e em 2 meses precisamos criar uma aplicação fullstack (front-end, back-end and mobile) para gerenciamento de times. Após conseguir o primeiro lugar, fui contratado pela mesma empresa.",
+      "button": "Projeto Team Makr"
+    },
+    "wise": {
+      "time": "Atual (11 meses)",
+      "title": "Wise Systems",
+      "description": "Em ordem cronológica:",
+      "description_1": "- 8 meses dando manutenção e adicionando novas funcionalidades em um website de marketplace contruído com React e NestJS <important>(fullstack)</important>",
+      "description_2": "- 2 meses criando um website de logística em Angular <important>(front-end)</important>",
+      "description_3": "- Atualmente criando um website de marketplace construído com Next.js <important>(front-end)</important>"
+    }
   },
   "RollDown": {
-    "scrolldown": "Scroll down"
+    "scrolldown": "Role para baixo"
   },
   "Footer": {
-    "made_by": "Wilson Bley. All rights reserved."
+    "made_by": "Wilson Bley. Todos os direitos reservados."
   },
   "About": {
-    "title": "About me",
-    "about": "A junior web developer with 11 months of experience working in a team for a marketplace webapp. Always trying to learn new things (which makes the JS ecosystem perfect for me, a new framework everyday haha) because that is what makes me motivated to keep programming.",
-    "about_2": "My current short/medium term goal is becoming advanced in React and Next.js while always improving my code skills to write maintainable and scalable apps, while the long term is becoming a fullstack developer."
+    "title": "Sobre mim",
+    "about": "Um desenvolvedor web junior com 11 meses de experiência trabalhando em um time para um website de marketplace. Sempre tentando aprender novas coisas (o que faz o ecossistema JS perfeito para mim, já que tem um novo framework todo dia haha) porque é isso que me motiva a continuar programando.",
+    "about_2": "Meu objetivo de curto/médio prazo atual é ser um desenvolvedor avançado em React e Next.js, melhorando sempre minhas habilidades para escrever código escalável e manutenível, e meu objetivo a longo prazo é me tornar um desenvolvedor fullstack."
   }
 }

@@ -47,12 +47,6 @@
       "description_3": "- Currently creating a marketplace website built with Next.js <important>(front-end)</important>"
     }
   },
-  "Header": {
-    "home": "Home",
-    "project": "Projects",
-    "about": "About",
-    "posts": "Posts"
-  },
   "RollDown": {
     "scrolldown": "Scroll down"
   },
