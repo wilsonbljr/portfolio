@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import { getIcon, IconEnum } from "../lib/utils/iconUtils";
-import ChevronDown from "../public/icons/chevron-down.svg";
 
 interface ProjectCardProps {
   title: string;

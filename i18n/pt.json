@@ -5,9 +5,10 @@
   },
   "Projects": {
     "title": "Projetos",
+    "go_back": "Voltar",
     "team_makr": {
       "title": "Team Makr",
-      "description": "Um app fullstack para gerenciar times dentro da sua empresa se baseando nas habilidades de seus colaboradores",
+      "description": "App fullstack para gerenciar times na sua empresa se baseando nas habilidades de seus colaboradores",
       "date": "11/2021"
     },
     "portfolio": {
@@ -16,7 +17,7 @@
       "date": "11/2022"
     },
     "api_spring": {
-      "title": "API de um Website de Reviews",
+      "title": "API de Reviews",
       "description": "Meu primeiro projeto, uma API usada por um website de reviews",
       "date": "10/2021"
     }

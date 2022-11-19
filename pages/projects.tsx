@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useTranslations } from "next-intl";
 import ProjectCard from "../components/ProjectCard";
 import { IconEnum } from "../lib/utils/iconUtils";
+import Link from "next/link";
 
 export default function Home() {
   const t = useTranslations("Projects");
@@ -35,7 +36,7 @@ export default function Home() {
             {t("title")}
           </h1>
         </div>
-        <ul className="flex gap-5">
+        <ul className="flex flex-wrap flex-col lg:flex-row lg:gap-5">
           <li>
             <ProjectCard
               title={t("team_makr.title")}
@@ -74,6 +75,12 @@ export default function Home() {
             />
           </li>
         </ul>
+        <Link
+          href="/"
+          className="px-5 py-2 mt-5 bg-slate-700 rounded-md font-semibold hover:bg-slate-500 hover:text-amber-400 hover:cursor-pointer"
+        >
+          {t("go_back")}
+        </Link>
       </div>
     </main>
   );

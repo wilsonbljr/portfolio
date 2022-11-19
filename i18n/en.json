@@ -5,6 +5,7 @@
   },
   "Projects": {
     "title": "Projects",
+    "go_back": "Go back",
     "team_makr": {
       "title": "Team Makr",
       "description": "A fullstack app to manage teams inside your company based on the skills of your employees",
