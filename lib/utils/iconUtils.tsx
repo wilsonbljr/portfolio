@@ -8,7 +8,7 @@ import Next from "../../public/icons/next.svg";
 import TailWind from "../../public/icons/tailwind.svg";
 import Java from "../../public/icons/java.svg";
 import MySQL from "../../public/icons/mysql.svg";
-import Spring from "../../public/icons/Spring.svg";
+import Spring from "../../public/icons/spring.svg";
 
 export enum IconEnum {
   CSS = "CSS",
