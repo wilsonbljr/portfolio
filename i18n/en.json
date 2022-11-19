@@ -3,6 +3,22 @@
     "name": "Wilson Bley",
     "occupation": "Software Developer (JS/TS/React)"
   },
+  "Projects": {
+    "title": "Projects",
+    "team_makr": {
+      "title": "Team Makr",
+      "description": "A fullstack app to manage teams inside your company based on the skills of your employees",
+      "date": "11/2021"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "This is my website, the one you are currently looking at.",
+      "date": "11/2022"
+    }
+  },
+  "ProjectCard": {
+    "made_with": "Made with:"
+  },
   "Timeline": {
     "title": "Experience",
     "beginning": "Beginning",
