@@ -39,6 +39,19 @@ export default function Home() {
         <ul className="flex flex-wrap flex-col lg:flex-row lg:gap-5">
           <li>
             <ProjectCard
+              title={t("portfolio.title")}
+              description={t("portfolio.description")}
+              date={t("portfolio.date")}
+              stack={[
+                IconEnum.TypeScript,
+                IconEnum.HTML,
+                IconEnum.Next,
+                IconEnum.TailWind,
+              ]}
+            />
+          </li>
+          <li>
+            <ProjectCard
               title={t("team_makr.title")}
               description={t("team_makr.description")}
               date={t("team_makr.date")}
@@ -50,19 +63,6 @@ export default function Home() {
                 IconEnum.CSS,
                 IconEnum.Docker,
                 IconEnum.MySQL,
-              ]}
-            />
-          </li>
-          <li>
-            <ProjectCard
-              title={t("portfolio.title")}
-              description={t("portfolio.description")}
-              date={t("portfolio.date")}
-              stack={[
-                IconEnum.TypeScript,
-                IconEnum.HTML,
-                IconEnum.Next,
-                IconEnum.TailWind,
               ]}
             />
           </li>
