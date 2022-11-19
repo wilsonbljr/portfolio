@@ -35,7 +35,7 @@ export default function Home() {
             {t("title")}
           </h1>
         </div>
-        <ul className='flex gap-5'>
+        <ul className="flex gap-5">
           <li>
             <ProjectCard
               title={t("team_makr.title")}
@@ -48,6 +48,7 @@ export default function Home() {
                 IconEnum.HTML,
                 IconEnum.CSS,
                 IconEnum.Docker,
+                IconEnum.MySQL,
               ]}
             />
           </li>
@@ -62,6 +63,14 @@ export default function Home() {
                 IconEnum.Next,
                 IconEnum.TailWind,
               ]}
+            />
+          </li>
+          <li>
+            <ProjectCard
+              title={t("api_spring.title")}
+              description={t("api_spring.description")}
+              date={t("api_spring.date")}
+              stack={[IconEnum.Java, IconEnum.Spring, IconEnum.MySQL]}
             />
           </li>
         </ul>

@@ -6,6 +6,9 @@ import JavaScript from "../../public/icons/javascript.svg";
 import TypeScript from "../../public/icons/typescript.svg";
 import Next from "../../public/icons/next.svg";
 import TailWind from "../../public/icons/tailwind.svg";
+import Java from "../../public/icons/java.svg";
+import MySQL from "../../public/icons/mysql.svg";
+import Spring from "../../public/icons/Spring.svg";
 
 export enum IconEnum {
   CSS = "CSS",
@@ -16,6 +19,9 @@ export enum IconEnum {
   TypeScript = "Typescript",
   Next = "Next",
   TailWind = "TailWind",
+  Java = "Java",
+  MySQL = "MySQL",
+  Spring = "Spring",
 }
 
 export const getIcon = (icon: IconEnum) => {
@@ -36,5 +42,11 @@ export const getIcon = (icon: IconEnum) => {
       return <Next className="w-12 h-12 fill-white" />;
     case IconEnum.TailWind:
       return <TailWind className="w-12 h-12" />;
+    case IconEnum.Java:
+      return <Java className="w-12 h-12" />;
+    case IconEnum.MySQL:
+      return <MySQL className="w-12 h-12" />;
+    case IconEnum.Spring:
+      return <Spring className="w-12 h-12 fill-white" />;
   }
 };
