@@ -1,7 +1,11 @@
 {
   "Landing": {
     "name": "Wilson Bley",
-    "occupation": "Software Developer (JS/TS/React)"
+    "occupation": "Software Developer (JS/TS/React)",
+    "buttons": {
+      "about": "About",
+      "projects": "Projects"
+    }
   },
   "Projects": {
     "title": "Projects",

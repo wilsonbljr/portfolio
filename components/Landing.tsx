@@ -35,13 +35,13 @@ const Landing: React.FC<LandingProps> = ({ aboutRef }) => {
             onClick={scrollIntoAbout}
             className="px-5 py-2 mt-8 bg-slate-700 rounded-l-md border-r border-slate-800 font-semibold hover:bg-slate-500 hover:text-amber-400 hover:cursor-pointer"
           >
-            About
+            {t("buttons.about")}
           </div>
           <Link
             href="/projects"
             className="px-5 py-2 mt-8 bg-slate-700 rounded-r-md font-semibold hover:bg-slate-500 hover:text-amber-400 hover:cursor-pointer"
           >
-            Projects
+            {t("buttons.projects")}
           </Link>
         </div>
         <div className="flex mt-8 gap-2">
