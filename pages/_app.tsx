@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Script
         async
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.TAG}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_G_TAG}`}
       ></Script>
       <Script id="google-tag-manager">
         {`
@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
         
-          gtag('config', ${process.env.TAG});
+          gtag('config', ${process.env.NEXT_PUBLIC_G_TAG});
         `}
       </Script>
       <NextIntlProvider messages={pageProps.messages}>
