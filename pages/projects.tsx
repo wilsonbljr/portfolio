@@ -29,6 +29,11 @@ export default function Home() {
         />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <title>Wilson Bley - Projects</title>
+        <meta name="title" content="Wilson Bley - Projects" />
+        <meta
+          name="description"
+          content="Projects made by Wilson Bley Lipski Junior"
+        />
       </Head>
       <div className="flex justify-center items-center min-h-[calc(100vh-40px)] flex-col">
         <div className="container">

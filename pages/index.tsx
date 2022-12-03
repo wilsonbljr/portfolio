@@ -29,6 +29,11 @@ export default function Home() {
         />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <title>Wilson Bley</title>
+        <meta name="title" content="Wilson Bley" />
+        <meta
+          name="description"
+          content="Curriculum and portfolio of Wilson Bley Lipski Junior"
+        />
       </Head>
       <Landing aboutRef={aboutRef} />
       <About ref={aboutRef} />
